@@ -39,3 +39,16 @@ Can you see "Baz" or "Qux"? Try advancing the slide.
 > :::
 
 I wasn't able to find anything in the docs about this implicit incremental behavior.
+
+
+## Repro with only one list
+
+```markdown
+> * Foo
+> * Bar
+```
+
+> * Foo
+> * Bar
+
+Can you see "Foo" or "Bar"? Try advancing the slide.
