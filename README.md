@@ -1,8 +1,8 @@
 # SSCCE
 
 When placing a list in a blockquote, it renders as an incremental list. If I want a
-quoted list, I need to specify that explicitly. I haven't found any documentation
-supporting this behavior, so maybe it's a bug?
+quoted list, I need to specify explicitly that the list is nonincremental. I haven't
+found any documentation supporting this behavior, so maybe it's a bug?
 
 Tested with _Quarto_ versions:
 
