@@ -1,4 +1,33 @@
-## My list
+## Repro
+
+```markdown
+> * Foo
+> * Bar
+```
+
+> * Foo
+> * Bar
+
+Can you see "Foo" or "Bar"? Try advancing the slide.
+
+
+## Doesn't repro with paragraph text in quote
+
+
+```markdown
+> This text restores expected behavior
+>
+> * Foo
+> * Bar
+```
+
+> This text restores expected behavior
+>
+> * Foo
+> * Bar
+
+
+## Multiple lists are even weirder
 
 ```markdown
 * Foo
@@ -17,8 +46,7 @@
 Can you see "Baz" or "Qux"? Try advancing the slide.
 
 
-## My list (nonincremental)
-
+## Explicit `nonincremental` class restores expected behavior {.smaller}
 
 ```markdown
 * Foo
@@ -39,16 +67,3 @@ Can you see "Baz" or "Qux"? Try advancing the slide.
 > :::
 
 I wasn't able to find anything in the docs about this implicit incremental behavior.
-
-
-## Repro with only one list
-
-```markdown
-> * Foo
-> * Bar
-```
-
-> * Foo
-> * Bar
-
-Can you see "Foo" or "Bar"? Try advancing the slide.
