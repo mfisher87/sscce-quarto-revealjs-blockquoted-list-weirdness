@@ -12,3 +12,8 @@ Tested with:
 * Blockquoted list renders as incremental list
 * Blockquoted list renders without blockquote style
 * When rendered after an un-quoted list, the two elements render unexpectedly side-by-side
+
+
+## Repro
+
+`quarto preview` in this directory
